@@ -1,6 +1,5 @@
 from math import sin, cos
 
-from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
 from spyne.model.primitive import Double
 from spyne.decorator import rpc

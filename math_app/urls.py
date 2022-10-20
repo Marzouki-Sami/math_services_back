@@ -1,7 +1,7 @@
-from os import path
+from django.urls import path
 
-from math_app import views
+from . import views
 
-urlpatterns = [
-    path('', views.MathService, name='home'),
+urlpatterns=[
+    path('',views.MyApplication,name='mathsApp')
 ]
